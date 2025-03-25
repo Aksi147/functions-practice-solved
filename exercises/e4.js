@@ -43,7 +43,7 @@ const isNameInArray = (arr, name) => arr.includes(name);
  * !!! Hint: There are two functions to refactor !!!
  */
 
-/* const logSecondsUpToMax = function (max) {
+/* const logSecondsUpToMax = function (max) {   COPY PASTED AND COMMENTED FOR REFERENCE
   let i = 0;
   const timer = setInterval(function () {
     if (i < max) {
@@ -54,7 +54,7 @@ const isNameInArray = (arr, name) => arr.includes(name);
   }, 1000);
 }; */
 
-const logSecondsUpToMax = (max) =>
+const logSecondsUpToMax = (max) => {
   let i = 0;
   const timer = setInterval(() => {
     if (i < max) {
@@ -64,7 +64,6 @@ const logSecondsUpToMax = (max) =>
     }
   }, 1000);
 };
-
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-4"
